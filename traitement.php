@@ -10,6 +10,7 @@ $dotenv->load();
 
 if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['mail']) && isset($_POST['objet']) && isset($_POST['message'])){
     $mail = new PHPMailer(true);
+    $mail->CharSet = "UTF-8"; 
     try {
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
