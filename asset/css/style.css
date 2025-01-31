@@ -1,0 +1,24 @@
+form {
+    width: 350px;
+    height: 350px;
+}
+
+label {
+    width: 80px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 100px;
+} 
+
+input[type="submit"] {
+    float: right;
+    margin-right: 15px;
+}
