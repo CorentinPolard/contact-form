@@ -1,6 +1,20 @@
+main {
+    font-family: Arial;
+    line-height: 1.5;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
 form {
     width: 350px;
-    height: 350px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;  
 }
 
 label {
@@ -19,6 +33,5 @@ textarea {
 } 
 
 input[type="submit"] {
-    float: right;
-    margin-right: 15px;
+    width: 255px;
 }
