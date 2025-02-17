@@ -1,11 +1,13 @@
 # contact-form
 
+## Description
 Ce projet est un formulaire de contact facilement réutilisable et intégrable dans différents projets web. 
 Le formulaire permet aux utilisateurs d'envoyer leur message sous forme de mail via un formulaire web. 
 Il comprend des champs pour le nom, l'adresse e-mail, le sujet du message et le message.
 Ce projet utilise PHPMailer et des variables d'environnement à configurer pour fonctionner.
 
 
+## Installation
 Pour réutiliser le projet : 
 
 1. Cloner le projet avec git clone
